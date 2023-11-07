@@ -17,13 +17,26 @@
                     </div>
                     <div class="col punkt-menu punkt-menu">
                         <div class="row row-menu justify-content-between">
-                            <div class="col t-punkt-menu t-punkt-menu-1" > О нас</div>
+                            <div class="col t-punkt-menu t-punkt-menu-1" >О нас</div>
                             <div class="col t-punkt-menu t-punkt-menu-1">Услуги</div>       
                             <div class="col t-punkt-menu t-punkt-menu-1">Контакты</div>
                             <div class="col t-punkt-menu t-punkt-menu-1"><button type="button" class=" but-menu" >
                                 +7(495)215-08-15</button></div>       
-                            <div class="col t-punkt-menu d-flex align-items-center justify-content-end burg-menu">
+                            <div class="col burg-menu t-punkt-menu d-flex align-items-center justify-content-end btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img class="img-fluid" src="img/burg.svg" alt="">   
+                                <div class="skr-burg">
+                                  <div class="burger-menu ">
+                                      <!-- <a href="" class="burger-menu_button">
+                                          <spun class="burger-menu_lines"></spun>
+                                      </a> -->
+                                      <ul class="dropdown-menu dropdown-menu-end">
+                                          <a href="#section-1" class=" dropdown-item" type="button">О нас</a>
+                                          <a href="#section-2" class="dropdown-item" type="button">Услуги</a>
+                                          <a href="#section-3" class="dropdown-item" type="button">Контакты</a>
+                                      </ul>
+                                      <div class="burger-menu_overlay"></div>
+                                  </div>
+                              </div>
                             </div>         
                         </div>         
                     </div>
@@ -56,7 +69,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div id="#section-1" class="container">
         <div class="row">
             <div class="col bl2">
                 <div class="row">
@@ -85,7 +98,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div id="#section-2" class="container">
         <div class="row">
             <div class="col bl3">
                 <div class="row">
@@ -203,7 +216,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div id="#section-3" class="container">
         <div class="row">
             <div class="menu row-menu">
                 <div class="row row-menu justify-content-between">
@@ -332,7 +345,7 @@
     </div>
   </div>
 </div>
-
+    <script src="js/script.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
